@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BFE6B3B1819E73A002277E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE6B3A1819E73A002277E6 /* UIKit.framework */; };
+		8BFE6B3D1819E73A002277E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE6B3C1819E73A002277E6 /* Foundation.framework */; };
+		8BFE6B3F1819E73A002277E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE6B3E1819E73A002277E6 /* CoreGraphics.framework */; };
+		8BFE6B451819E73A002277E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B431819E73A002277E6 /* InfoPlist.strings */; };
+		8BFE6B471819E73A002277E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE6B461819E73A002277E6 /* main.m */; };
+		8BFE6B4B1819E73A002277E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE6B4A1819E73A002277E6 /* AppDelegate.m */; };
+		8BFE6B4D1819E73A002277E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B4C1819E73A002277E6 /* Default.png */; };
+		8BFE6B4F1819E73A002277E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B4E1819E73A002277E6 /* Default@2x.png */; };
+		8BFE6B511819E73B002277E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B501819E73B002277E6 /* Default-568h@2x.png */; };
+		8BFE6B541819E73B002277E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE6B531819E73B002277E6 /* ViewController.m */; };
+		8BFE6B571819E73B002277E6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B551819E73B002277E6 /* ViewController_iPhone.xib */; };
+		8BFE6B5A1819E73B002277E6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B581819E73B002277E6 /* ViewController_iPad.xib */; };
+		8BFE6B741819F087002277E6 /* HorizontalClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE6B731819F087002277E6 /* HorizontalClipView.m */; };
+		8BFE6B791819F6E0002277E6 /* Customerbrochure.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B781819F6E0002277E6 /* Customerbrochure.png */; };
+		8BFE6B7B181A05CF002277E6 /* HorizontalClipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE6B7A181A05CF002277E6 /* HorizontalClipView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BFE6B371819E73A002277E6 /* HorizontalClipTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalClipTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFE6B3A1819E73A002277E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BFE6B3C1819E73A002277E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BFE6B3E1819E73A002277E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BFE6B421819E73A002277E6 /* HorizontalClipTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizontalClipTest-Info.plist"; sourceTree = "<group>"; };
+		8BFE6B441819E73A002277E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BFE6B461819E73A002277E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BFE6B481819E73A002277E6 /* HorizontalClipTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorizontalClipTest-Prefix.pch"; sourceTree = "<group>"; };
+		8BFE6B491819E73A002277E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BFE6B4A1819E73A002277E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BFE6B4C1819E73A002277E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BFE6B4E1819E73A002277E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BFE6B501819E73B002277E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BFE6B521819E73B002277E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BFE6B531819E73B002277E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BFE6B561819E73B002277E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		8BFE6B591819E73B002277E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8BFE6B721819F087002277E6 /* HorizontalClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalClipView.h; sourceTree = "<group>"; };
+		8BFE6B731819F087002277E6 /* HorizontalClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalClipView.m; sourceTree = "<group>"; };
+		8BFE6B781819F6E0002277E6 /* Customerbrochure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Customerbrochure.png; sourceTree = "<group>"; };
+		8BFE6B7A181A05CF002277E6 /* HorizontalClipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalClipView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BFE6B341819E73A002277E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE6B3B1819E73A002277E6 /* UIKit.framework in Frameworks */,
+				8BFE6B3D1819E73A002277E6 /* Foundation.framework in Frameworks */,
+				8BFE6B3F1819E73A002277E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BFE6B2E1819E73A002277E6 = {
+			isa = PBXGroup;
+			children = (
+				8BFE6B401819E73A002277E6 /* HorizontalClipTest */,
+				8BFE6B391819E73A002277E6 /* Frameworks */,
+				8BFE6B381819E73A002277E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFE6B381819E73A002277E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE6B371819E73A002277E6 /* HorizontalClipTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFE6B391819E73A002277E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE6B3A1819E73A002277E6 /* UIKit.framework */,
+				8BFE6B3C1819E73A002277E6 /* Foundation.framework */,
+				8BFE6B3E1819E73A002277E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BFE6B401819E73A002277E6 /* HorizontalClipTest */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE6B491819E73A002277E6 /* AppDelegate.h */,
+				8BFE6B4A1819E73A002277E6 /* AppDelegate.m */,
+				8BFE6B521819E73B002277E6 /* ViewController.h */,
+				8BFE6B531819E73B002277E6 /* ViewController.m */,
+				8BFE6B551819E73B002277E6 /* ViewController_iPhone.xib */,
+				8BFE6B751819F08F002277E6 /* HorizontalClipView */,
+				8BFE6B581819E73B002277E6 /* ViewController_iPad.xib */,
+				8BFE6B411819E73A002277E6 /* Supporting Files */,
+			);
+			path = HorizontalClipTest;
+			sourceTree = "<group>";
+		};
+		8BFE6B411819E73A002277E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE6B421819E73A002277E6 /* HorizontalClipTest-Info.plist */,
+				8BFE6B431819E73A002277E6 /* InfoPlist.strings */,
+				8BFE6B461819E73A002277E6 /* main.m */,
+				8BFE6B481819E73A002277E6 /* HorizontalClipTest-Prefix.pch */,
+				8BFE6B4C1819E73A002277E6 /* Default.png */,
+				8BFE6B4E1819E73A002277E6 /* Default@2x.png */,
+				8BFE6B501819E73B002277E6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BFE6B751819F08F002277E6 /* HorizontalClipView */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE6B781819F6E0002277E6 /* Customerbrochure.png */,
+				8BFE6B721819F087002277E6 /* HorizontalClipView.h */,
+				8BFE6B731819F087002277E6 /* HorizontalClipView.m */,
+				8BFE6B7A181A05CF002277E6 /* HorizontalClipView.xib */,
+			);
+			name = HorizontalClipView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BFE6B361819E73A002277E6 /* HorizontalClipTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFE6B5D1819E73B002277E6 /* Build configuration list for PBXNativeTarget "HorizontalClipTest" */;
+			buildPhases = (
+				8BFE6B331819E73A002277E6 /* Sources */,
+				8BFE6B341819E73A002277E6 /* Frameworks */,
+				8BFE6B351819E73A002277E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalClipTest;
+			productName = HorizontalClipTest;
+			productReference = 8BFE6B371819E73A002277E6 /* HorizontalClipTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFE6B2F1819E73A002277E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = developer;
+			};
+			buildConfigurationList = 8BFE6B321819E73A002277E6 /* Build configuration list for PBXProject "HorizontalClipTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BFE6B2E1819E73A002277E6;
+			productRefGroup = 8BFE6B381819E73A002277E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFE6B361819E73A002277E6 /* HorizontalClipTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BFE6B351819E73A002277E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE6B451819E73A002277E6 /* InfoPlist.strings in Resources */,
+				8BFE6B4D1819E73A002277E6 /* Default.png in Resources */,
+				8BFE6B4F1819E73A002277E6 /* Default@2x.png in Resources */,
+				8BFE6B511819E73B002277E6 /* Default-568h@2x.png in Resources */,
+				8BFE6B571819E73B002277E6 /* ViewController_iPhone.xib in Resources */,
+				8BFE6B5A1819E73B002277E6 /* ViewController_iPad.xib in Resources */,
+				8BFE6B791819F6E0002277E6 /* Customerbrochure.png in Resources */,
+				8BFE6B7B181A05CF002277E6 /* HorizontalClipView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BFE6B331819E73A002277E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE6B471819E73A002277E6 /* main.m in Sources */,
+				8BFE6B4B1819E73A002277E6 /* AppDelegate.m in Sources */,
+				8BFE6B541819E73B002277E6 /* ViewController.m in Sources */,
+				8BFE6B741819F087002277E6 /* HorizontalClipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BFE6B431819E73A002277E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFE6B441819E73A002277E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BFE6B551819E73B002277E6 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFE6B561819E73B002277E6 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8BFE6B581819E73B002277E6 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFE6B591819E73B002277E6 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BFE6B5B1819E73B002277E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BFE6B5C1819E73B002277E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BFE6B5E1819E73B002277E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizontalClipTest/HorizontalClipTest-Prefix.pch";
+				INFOPLIST_FILE = "HorizontalClipTest/HorizontalClipTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BFE6B5F1819E73B002277E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizontalClipTest/HorizontalClipTest-Prefix.pch";
+				INFOPLIST_FILE = "HorizontalClipTest/HorizontalClipTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BFE6B321819E73A002277E6 /* Build configuration list for PBXProject "HorizontalClipTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFE6B5B1819E73B002277E6 /* Debug */,
+				8BFE6B5C1819E73B002277E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFE6B5D1819E73B002277E6 /* Build configuration list for PBXNativeTarget "HorizontalClipTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFE6B5E1819E73B002277E6 /* Debug */,
+				8BFE6B5F1819E73B002277E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BFE6B2F1819E73A002277E6 /* Project object */;
+}
